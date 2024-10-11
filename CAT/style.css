@@ -1,0 +1,873 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --neutral-color40: rgba(153, 162, 165, 1);
+  --neutral-color100: rgba(0, 23, 31, 1);
+  --primary-colordark-blue: rgba(0, 52, 89, 1);
+  --neutral-color60: rgba(102, 116, 121, 1);
+  --neutral-color00: rgba(253, 253, 253, 1);
+  --body-14px-medium-font-family: "SVN-Gilroy", Helvetica;
+  --body-14px-medium-font-weight: 500;
+  --body-14px-medium-font-size: 14px;
+  --body-14px-medium-letter-spacing: 0px;
+  --body-14px-medium-line-height: 20px;
+  --body-14px-medium-font-style: normal;
+}
+
+.home {
+  background-color: #f7dca9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: #f7dca9;
+  width: 1440px;
+  height: 2121px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.home .header {
+  position: absolute;
+  width: 1440px;
+  height: 94px;
+  top: 0;
+  left: 0;
+  background-color: #f7dca9;
+  backdrop-filter: blur(17.71px) brightness(100%);
+  -webkit-backdrop-filter: blur(17.71px) brightness(100%);
+}
+
+.home .navbar {
+  display: flex;
+  width: 1332px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 27px;
+  left: 52px;
+}
+
+.home .logo {
+  position: relative;
+  width: 115px;
+  height: 52px;
+}
+
+.home .overlap-group {
+  position: relative;
+  width: 80px;
+  height: 53px;
+  top: -1px;
+  left: 17px;
+}
+
+.home .text-wrapper {
+  position: absolute;
+  top: 43px;
+  left: 7px;
+  font-family: "Yaldevi Colombo SemiBold-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .cat {
+  position: absolute;
+  width: 80px;
+  top: 0;
+  left: 0;
+  font-family: "Titan One", Helvetica;
+  font-weight: 400;
+  color: #001f3f;
+  font-size: 41px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .navbar-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 800;
+  color: #001f3f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.home .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: #001f3f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .search {
+  display: flex;
+  width: 280px;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px 12px 16px;
+  position: relative;
+  background-color: var(--neutral-color00);
+  border-radius: 46px;
+}
+
+.home .img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.home .search-something {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-14px-medium-font-family);
+  font-weight: var(--body-14px-medium-font-weight);
+  color: var(--neutral-color40);
+  font-size: var(--body-14px-medium-font-size);
+  letter-spacing: var(--body-14px-medium-letter-spacing);
+  line-height: var(--body-14px-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-14px-medium-font-style);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.home .content {
+  position: absolute;
+  width: 1440px;
+  height: 592px;
+  top: 94px;
+  left: 0;
+  background-color: #f7dca9;
+}
+
+.home .overlap {
+  position: relative;
+  width: 1238px;
+  height: 592px;
+  left: 149px;
+}
+
+.home .one-more-friend {
+  position: absolute;
+  width: 560px;
+  height: 199px;
+  top: 189px;
+  left: 678px;
+}
+
+.home .one-more-friend-2 {
+  position: absolute;
+  width: 554px;
+  top: 0;
+  left: 0;
+  font-family: "ADLaM Display", Helvetica;
+  font-weight: 400;
+  color: #001f3f;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 68px;
+  white-space: nowrap;
+}
+
+.home .thousands-more-fun {
+  position: absolute;
+  width: 551px;
+  top: 64px;
+  left: 3px;
+  font-family: "ADLaM Display", Helvetica;
+  font-weight: 400;
+  color: #001f3f;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.home .p {
+  position: absolute;
+  width: 483px;
+  top: 132px;
+  left: 13px;
+  font-family: "Abyssinica SIL", Helvetica;
+  font-weight: 400;
+  color: #001f3f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .cat-care {
+  position: absolute;
+  width: 168px;
+  height: 97px;
+  top: 192px;
+  left: 0;
+}
+
+.home .overlap-group-2 {
+  position: absolute;
+  width: 160px;
+  height: 22px;
+  top: 37px;
+  left: 0;
+}
+
+.home .line-cat-care {
+  position: absolute;
+  width: 160px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  background-color: #707070;
+}
+
+.home .about {
+  position: absolute;
+  width: 160px;
+  top: 1px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 500;
+  color: #001f3f;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.home .catcare {
+  position: absolute;
+  width: 160px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: #001f3f;
+  font-size: 28px;
+  letter-spacing: 2.8px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.home .senses {
+  position: absolute;
+  width: 160px;
+  top: 64px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 500;
+  color: #646464;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.home .behavior {
+  position: absolute;
+  width: 160px;
+  top: 81px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 500;
+  color: #646464;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.home .CAT {
+  position: absolute;
+  width: 610px;
+  height: 592px;
+  top: 0;
+  left: 114px;
+}
+
+.home .all-pets {
+  background-color: #ffffff;
+  position: absolute;
+  width: 1440px;
+  height: 995px;
+  top: 686px;
+  left: 0;
+  border-radius: 40px;
+}
+
+.home .card {
+  top: 541px;
+  left: 1028px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 0px;
+  position: absolute;
+  background-color: var(--neutral-color00);
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px -2px #00000014;
+}
+
+.home .frame-card {
+  position: relative;
+  width: 264px;
+  height: 304px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.home .jelly {
+  position: absolute;
+  width: 35px;
+  height: 24px;
+  top: 270px;
+  left: 114px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color100);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .cat-2 {
+  position: absolute;
+  width: 264px;
+  height: 264px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home .frame-card-wrapper {
+  top: 541px;
+  left: 430px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 0px;
+  position: absolute;
+  background-color: var(--neutral-color00);
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px -2px #00000014;
+}
+
+.home .choco {
+  position: absolute;
+  width: 50px;
+  height: 24px;
+  top: 270px;
+  left: 107px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color100);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .div-wrapper {
+  top: 541px;
+  left: 729px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 0px;
+  position: absolute;
+  background-color: var(--neutral-color00);
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px -2px #00000014;
+}
+
+.home .cloud {
+  position: absolute;
+  width: 46px;
+  height: 24px;
+  top: 270px;
+  left: 109px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color100);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .card-2 {
+  top: 541px;
+  left: 131px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 0px;
+  position: absolute;
+  background-color: var(--neutral-color00);
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px -2px #00000014;
+}
+
+.home .pudding {
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  top: 270px;
+  left: 99px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color100);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .card-3 {
+  top: 150px;
+  left: 1027px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 0px;
+  position: absolute;
+  background-color: var(--neutral-color00);
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px -2px #00000014;
+}
+
+.home .tofu {
+  position: absolute;
+  width: 36px;
+  height: 24px;
+  top: 270px;
+  left: 114px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color100);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .card-4 {
+  top: 150px;
+  left: 728px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 0px;
+  position: absolute;
+  background-color: var(--neutral-color00);
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px -2px #00000014;
+}
+
+.home .marsh {
+  position: absolute;
+  width: 111px;
+  height: 24px;
+  top: 270px;
+  left: 76px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color100);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .cat-3 {
+  position: absolute;
+  width: 264px;
+  height: 264px;
+  top: 0;
+  left: 0;
+}
+
+.home .card-5 {
+  top: 150px;
+  left: 429px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 0px;
+  position: absolute;
+  background-color: var(--neutral-color00);
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px -2px #00000014;
+}
+
+.home .mochi {
+  position: absolute;
+  width: 50px;
+  height: 24px;
+  top: 270px;
+  left: 110px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color100);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .card-6 {
+  top: 150px;
+  left: 130px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 8px 0px;
+  position: absolute;
+  background-color: var(--neutral-color00);
+  border-radius: 12px;
+  box-shadow: 0px 4px 28px -2px #00000014;
+}
+
+.home .snow {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  top: 270px;
+  left: 110px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color100);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .button-view-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 28px;
+  position: absolute;
+  top: 78px;
+  left: 1159px;
+  border-radius: 57px;
+  border: 1.5px solid;
+  border-color: var(--primary-colordark-blue);
+}
+
+.home .click {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.5px;
+  font-family: var(--body-14px-medium-font-family);
+  font-weight: var(--body-14px-medium-font-weight);
+  color: var(--primary-colordark-blue);
+  font-size: var(--body-14px-medium-font-size);
+  letter-spacing: var(--body-14px-medium-letter-spacing);
+  line-height: var(--body-14px-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-14px-medium-font-style);
+}
+
+.home .teks-cute-cat {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: absolute;
+  top: 60px;
+  left: 130px;
+}
+
+.home .cutecat {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .take-a-look-at-some {
+  position: relative;
+  width: fit-content;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--primary-colordark-blue);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.home .footer {
+  position: absolute;
+  width: 1440px;
+  height: 440px;
+  top: 1681px;
+  left: 0;
+  background-color: #f7dca9;
+  overflow: hidden;
+}
+
+.home .copyright {
+  position: absolute;
+  width: 1180px;
+  height: 40px;
+  top: 360px;
+  left: 130px;
+}
+
+.home .copyright2 {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-color60);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.home .terms-of-service {
+  position: absolute;
+  top: 9px;
+  left: 953px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: var(--neutral-color60);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.home .cat-4 {
+  position: absolute;
+  width: 80px;
+  top: -9px;
+  left: 550px;
+  font-family: "Titan One", Helvetica;
+  font-weight: 400;
+  color: #001f3f;
+  font-size: 41px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .overlap-group-wrapper {
+  position: absolute;
+  width: 1299px;
+  height: 319px;
+  top: 0;
+  left: 71px;
+}
+
+.home .overlap-group-3 {
+  position: relative;
+  width: 1305px;
+  height: 319px;
+}
+
+.home .background-blur {
+  position: absolute;
+  width: 1299px;
+  height: 204px;
+  top: 115px;
+  left: 0;
+  background-color: #00000066;
+  border-radius: 40px;
+  backdrop-filter: blur(4px) brightness(100%);
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.home .cat-left {
+  position: absolute;
+  width: 147px;
+  height: 133px;
+  top: 0;
+  left: 28px;
+}
+
+.home .cat-footer {
+  position: absolute;
+  width: 234px;
+  height: 173px;
+  top: 138px;
+  left: 602px;
+  object-fit: cover;
+}
+
+.home .news {
+  position: absolute;
+  width: 427px;
+  height: 128px;
+  top: 138px;
+  left: 878px;
+}
+
+.home .news-2 {
+  position: absolute;
+  width: 421px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: #001f3f;
+  font-size: 16px;
+  letter-spacing: 6.4px;
+  line-height: 22px;
+}
+
+.home .titlenews {
+  position: absolute;
+  width: 421px;
+  top: 46px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 18px;
+}
+
+.home .read {
+  position: absolute;
+  width: 421px;
+  top: 106px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: #ffc42b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .event {
+  position: absolute;
+  width: 408px;
+  height: 143px;
+  top: 138px;
+  left: 44px;
+}
+
+.home .circle {
+  position: absolute;
+  width: 45px;
+  height: 6px;
+  top: 137px;
+  left: 0;
+}
+
+.home .ellipse {
+  left: 0;
+  background-color: #ffc42b;
+  position: absolute;
+  width: 5px;
+  height: 6px;
+  top: 0;
+  border-radius: 2.71px/3px;
+}
+
+.home .ellipse-2 {
+  left: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  width: 5px;
+  height: 6px;
+  top: 0;
+  border-radius: 2.71px/3px;
+}
+
+.home .ellipse-3 {
+  left: 40px;
+  background-color: #ffffff;
+  position: absolute;
+  width: 5px;
+  height: 6px;
+  top: 0;
+  border-radius: 2.71px/3px;
+}
+
+.home .Malang {
+  position: absolute;
+  width: 402px;
+  top: 92px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: #001f3f;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.home .Catsfood {
+  position: absolute;
+  width: 402px;
+  top: 46px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 22px;
+}
+
+.home .event-2 {
+  position: absolute;
+  width: 402px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: #001f3f;
+  font-size: 16px;
+  letter-spacing: 6.4px;
+  line-height: 22px;
+}
