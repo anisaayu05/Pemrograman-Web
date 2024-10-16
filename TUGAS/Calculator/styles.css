@@ -1,0 +1,102 @@
+/* Tampilan utama */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.calculator {
+    width: 380px;
+    height: 100%;
+    background-color: #7E60BF;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.display {
+    width: 100%;
+    height: 308px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.display input {
+    width: 100%;
+    height: 100%;
+    font-size: 5em;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    padding-right: 10px;
+    outline: none;
+}
+
+.backspace {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.8em;
+    cursor: pointer;
+    display: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.button {
+    width: 100%;
+    height: 60px;
+    font-size: 1.8em;
+    background-color: #433878;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.button:active {
+    background-color: #8072ce;
+}
+
+.operator {
+    background-color: #C499F3;
+}
+
+.equals {
+    background-color: #7360DF;
+    border-radius: 50%;
+}
+
+.operator:active, .equals:active {
+    background-color: #e0c4ff;
+}
